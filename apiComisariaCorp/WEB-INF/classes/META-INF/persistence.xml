@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="apiComisariaCorp" transaction-type="JTA">
+	<jta-data-source>api_Comisaria</jta-data-source>
+	<class>csv.comisaria.com.domain.Arresto</class>
+	<class>csv.comisaria.com.domain.ArrestoPK</class>
+	<class>csv.comisaria.com.domain.Arsenal</class>
+	<class>csv.comisaria.com.domain.Banda</class>
+	<class>csv.comisaria.com.domain.Calabozo</class>
+	<class>csv.comisaria.com.domain.Caso</class>
+	<class>csv.comisaria.com.domain.Categoria</class>
+	<class>csv.comisaria.com.domain.Clase</class>
+	<class>csv.comisaria.com.domain.Delincuente</class>
+	<class>csv.comisaria.com.domain.DelincuenteCaso</class>
+	<class>csv.comisaria.com.domain.DelincuenteCasoPK</class>
+	<class>csv.comisaria.com.domain.Funcion</class>
+	<class>csv.comisaria.com.domain.Policia</class>
+	<class>csv.comisaria.com.domain.PoliciaArsenal</class>
+	<class>csv.comisaria.com.domain.PoliciaArsenalPK</class>
+	<class>csv.comisaria.com.domain.Telefono</class>
+	</persistence-unit>
+</persistence>
